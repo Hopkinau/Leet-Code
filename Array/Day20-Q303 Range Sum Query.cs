@@ -1,9 +1,10 @@
 //https://www.youtube.com/watch?v=2pndAmo_sMA
 
 
-1. First find all the prefix in the array
+1. First find all the prefixSum in the array
 eg:    [-2,0,3,-5,2,-1]
-prefix:[-2,-2,1,-4,-2,-3]
+prefix:[0,-2,-2,1,-4,-2,-3]
+
 
 public class NumArray {
 
@@ -21,6 +22,7 @@ public class NumArray {
     }
 
     public int SumRange(int i, int j)
+    //i is left index, j is right index.
     {
         return sum[j + 1] - sum[i];
     }

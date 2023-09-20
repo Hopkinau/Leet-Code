@@ -18,3 +18,12 @@ public class Solution {
         return null;
     }
 }
+
+For Example: nums = [ 1,3,9,11], target = 10;
+1. i = 0, diff = 10 - 1 = 9, indices does not contain 9, so add 1 to indices, indices = {1:0}
+2. i = 1, diff = 10 - 3 = 7, indices does not contain 7, so add 3 to indices, indices = {1:0, 3:1}
+3. i = 2, diff = 10 - 9 = 1, indices contains 1, so return [indices[1], 2] = [0,2]
+4. i = 3, diff = 10 - 11 = -1, indices does not contain -1, so add 11 to indices, indices = {1:0, 3:1, 11:3}
+
+
+

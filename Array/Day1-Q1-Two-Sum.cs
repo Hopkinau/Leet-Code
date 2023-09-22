@@ -3,6 +3,7 @@
 
 
 //use hashmap to solve this problems
+//hashmap key is the value of the array
 
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
